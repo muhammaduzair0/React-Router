@@ -8,7 +8,8 @@ import {
   Route,
 } from "react-router";
 import Layout from "./Layout.jsx";
-import { Home, About, Contact, User } from "./components";
+import { Home, About, Contact, User, Github } from "./components";
+import { githubInfoLoader } from "./components/User/Github.jsx";
 
 // const router = createBrowserRouter([
 //   {
